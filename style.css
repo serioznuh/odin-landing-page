@@ -7,18 +7,16 @@
     padding: 0;
 }
 
-.body {
-    display: flex;
-    
+body {
+    padding: 0 200px;
+    background: #1f2937;
 }
 
 .navbar {
     display: flex;
     height: 62px;
-    background: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
     color: #F9FAF8;
 }
 
@@ -28,10 +26,41 @@
     align-items: center;
 }
 
+.discover {
+    display: flex;
+    padding: 100px 0;
+    gap: 20px;
+}
+
+.discover .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    max-width: 500px;
+    max-height: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
 .logo {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 24px;
+}
+
+.logo img {
+    max-width: 7%;
+    max-height: auto;
+    border-radius: 30px;
 }
 
 ul {
@@ -40,12 +69,44 @@ ul {
     gap: 10px;
 }
 
-.logo img {
-    max-width: 8%;
-    border-radius: 30px;
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
-a:link, a:visited, a:hover, a:active {
+button {
+    padding: 12px 18px;
+    color: #F9FAF8;
+    background: #4622fe;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #5635ff radial-gradient(circle, transparent 1%, #5635ff 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #6244f8;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+p {
+    flex-grow: 1;
+}
+
+p, a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: #E5E7EB;
 }
