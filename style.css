@@ -10,7 +10,7 @@
 body {
     background: #1f2937;
 }
-nav, header, section {
+nav, header, section, footer {
     padding: 0 200px;
 }
 
@@ -175,6 +175,13 @@ blockquote {
     border: none;
     border-radius: 6px;
     font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
 }
 
 .ripple {
