@@ -67,6 +67,18 @@ nav, header, section {
     max-width: 180px;
 }
 
+.quote {
+    background: #E5E7EB;
+}
+
+.quote .container { 
+    display: flex;
+    padding: 120px 90px 100px;
+    gap: 10px;   
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .logo img {
     max-width: 50px;
     max-height: auto;
@@ -113,6 +125,13 @@ h2 {
     padding-bottom: 50px;
 }
 
+blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+}
+
 button {
     padding: 12px 18px;
     color: #F9FAF8;
@@ -155,6 +174,25 @@ a:hover, a:active {
    padding: 8px 0;
 }
 
+.author {
+    color: #000000;
+    font-weight: 900;
+}
+
 .imgbox:hover {
     transform: scale(1.1); 
+}
+
+.imgbox:active {
+    opacity: 1;
+    animation: flash 4s;
+}
+
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
