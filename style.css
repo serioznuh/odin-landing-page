@@ -27,6 +27,7 @@ nav, header, section, footer {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    padding-top: 14px;
 }
 
 .container {
@@ -212,7 +213,7 @@ a:hover, a:active {
 .box p {
    color: #68717d;
    text-align: center;
-   padding: 8px 0;
+   padding: 12px 0 0;
 }
 
 .author {
