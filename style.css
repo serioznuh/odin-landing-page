@@ -165,7 +165,8 @@ p, a:link, a:visited, a:hover, a:active {
 }
 
 a:hover, a:active {
-    font-size: 104%;
+    color: #ff3838;
+    transition:all 1s;
 }
 
 .box p {
@@ -186,6 +187,11 @@ a:hover, a:active {
 .imgbox:active {
     opacity: 1;
     animation: flash 4s;
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+    transition: all 1.5s;
 }
 
 @keyframes flash {
