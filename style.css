@@ -168,7 +168,7 @@ blockquote {
 }
 
 .button-discover button {
-    padding: 12px 18px;
+    padding: 14px 18px;
     color: #F9FAF8;
     background: #4622fe;
     cursor: pointer;
@@ -223,7 +223,7 @@ a:hover, a:active {
 
 .cto p {
     color: #E5E7EB;
-    padding: 8px 0;;
+    padding: 8px 0 0;
 }
 
 .imgbox:hover {
